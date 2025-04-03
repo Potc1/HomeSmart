@@ -1,0 +1,265 @@
+#logoDiv{
+    
+    li {
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+      }
+    p {
+        height: 17px;
+        width: 128px;
+    }
+}
+#navbar{
+    height: 56px;
+    li {
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+      }
+    p {
+        height: 17px;
+        width: 128px;
+    }
+    a:link {
+        color: black;
+        text-decoration: dashed;
+    }
+}
+#container{
+    background-color: #D9D9D9;
+    display: flex;
+    height: 788px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#HeaderText{
+    display: block;
+    height: 215px;
+    width: 200px;
+    margin-left: 240px;
+    text-align: left;
+    h5 {
+        margin-top: 165px;
+        font-size: x-large;
+    }
+}
+#MainText{
+    display: block;
+    height: 325px;
+    width: 380px;
+    margin-left: 240px;
+    font-size: x-large;
+}
+#MainImage{
+    display: block;
+    margin-left: 380px;
+    margin-top: 220px;
+}
+#down{
+    display: flex;
+    height: 215px;
+    margin-right: 70px;
+    width: 100%;
+}
+
+#navigationFooter{
+    margin-top: 60px;
+    #appeal{
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+        margin-left: 150px;
+      }
+    #links{
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+        margin-left: 235px;
+    }
+    #logoIMG, #cell2, #logoLi{
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+    }
+    #footerForm {
+        width: 540px;
+      }
+}
+#navigationFooterlinks{
+    li{
+        list-style: none;
+        align-items: right;
+    }
+}
+#catalog{
+    display: grid;
+    height: 788px;
+    background-color: #D9D9D9;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#block1{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#block2{
+    margin-left: 85px;
+    margin-top: 80px;
+}
+#block3{
+    margin-left: 85px;
+    margin-top: 80px;
+}
+
+#block4{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+#block5{
+    margin-left: 85px;
+    margin-top: 25px;
+}
+#block6{
+    margin-left: 85px;
+    margin-top: 25px;
+}
+#pagination{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    nav{
+        height: 33px;
+        width: 180px;
+    }
+}
+.card{
+    display: inline-block;
+    height: 300px;
+    width: 320px;
+    .card-body{
+        display: flex;
+        background-color: #FFFF;
+        height: 50px;
+        width: 320px;
+    }
+    img {
+        height: 250px;
+        width: 320px;
+    }
+    #cardText{
+        display: block;
+        height: 20px;
+        width: 195px;
+    }
+    .btn-primary{
+        height: 30px;
+        width: 85px;
+        text-align: center;
+        font-size: small;
+    } 
+}
+
+#containerCard{
+    display: grid;
+    height: 788px;
+    background-color: #D9D9D9;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#DeskCard{
+    margin-top: 80px;
+    margin-left: 125px;
+
+    #DeskCardBody{
+        display: flex;
+        flex-direction: row;
+
+        a {
+            margin-top: 30px;
+            margin-left: 245px;
+        }
+        .btn-primary{
+            height: 40px;
+            width: 90px;
+        }
+        p{
+            margin-top: 30px;
+        }
+    }
+
+}
+
+#characterCard{
+    margin-top: 150px;
+    margin-left: 310px;
+}
+
+#containerOrder{
+    display: grid;
+    height: 788px;
+    background-color: #D9D9D9;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#formOrder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 85px;
+    margin-left: 100px;
+    ul {
+        padding-left:0%;
+    }
+    li{
+        vertical-align: bottom;
+        display: inline-block;
+        list-style: none;
+        margin-left: 50px;
+    }
+}
+
+#imgOrder{
+    display: flex;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+.form-control{
+    width: 350px;
+    margin-top: 30px;
+}
+#exampleInputEmail1{
+    width: 350px;
+}
+#exampleInputFIO{
+    width: 350px;
+}
+#exampleInputPhone{
+    width: 265px;
+}
+#acceptOrder{
+    height: 38px;
+    width: 112px;
+    border-radius: 0rem;
+    background-color: #FFFF;
+      
+}
+#modalInOrder{
+    justify-content: center;
+    height: 20%;
+    border-radius: -999rem;
+    p{
+        text-align: center;
+    }
+    a {
+        text-decoration: underline;
+        color: black;
+        margin: 0 auto;
+        text-align: right;
+    }
+    .close-modal {
+        display: none;
+    }
+}
