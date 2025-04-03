@@ -12,6 +12,9 @@
 }
 #navbar{
     height: 56px;
+    a {
+        color: black;
+    }
     li {
         vertical-align: bottom;
         display: inline-block;
